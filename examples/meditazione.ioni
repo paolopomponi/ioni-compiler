@@ -1,0 +1,12 @@
+// Meditazione Souf di base
+crea_sillaba("Om", silenzio: 0.8, fase: π/4)
+crea_sillaba("Mani", silenzio: 0.6, fase: π/2)
+crea_sillaba("Padme", silenzio: 0.7, fase: 3π/4)
+crea_sillaba("Hum", silenzio: 0.9, fase: π)
+
+annoda("Om", "Mani")
+annoda("Mani", "Padme")
+annoda("Padme", "Hum")
+
+// Risonanza finale
+risuona tutte con amore
